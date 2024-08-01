@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <LandingPage />
+    <CrowSearch />
   </div>
 </template>
 
 <script>
-import LandingPage from './components/LandingPage.vue';
+import CrowSearch from './components/CrowSearch.vue';
 
 export default {
   name: 'App',
   components: {
-    LandingPage
+    CrowSearch
   }
 };
 </script>
