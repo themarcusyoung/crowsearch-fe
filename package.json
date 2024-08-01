@@ -5,6 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+<<<<<<< HEAD
     "lint": "vue-cli-service lint",
     "deploy": "gh-pages -d dist"
   },
@@ -15,6 +16,13 @@
     "axios": "^1.7.3",
     "core-js": "^3.8.3",
     "multer": "^1.4.5-lts.1"
+=======
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1664.0",
+    "core-js": "^3.8.3"
+>>>>>>> a2ecbd3fbc36bd6486e7a054c013d6762d042c57
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -24,7 +32,10 @@
     "@vue/compiler-sfc": "^3.4.34",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
+<<<<<<< HEAD
     "gh-pages": "^6.1.1",
+=======
+>>>>>>> a2ecbd3fbc36bd6486e7a054c013d6762d042c57
     "vue": "^3.4.34",
     "vue-loader": "^16.8.3"
   },
